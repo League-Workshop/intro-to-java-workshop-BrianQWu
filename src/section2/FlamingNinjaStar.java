@@ -13,15 +13,15 @@ public class FlamingNinjaStar {
 Robot genesis = new Robot("mini");
 genesis.penDown();
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
-genesis.moveTo(400, 400);
+genesis.moveTo(900, 450);
 		// *15. Make some adjustments to see what other kinds of shapes you can make.
 
 		// 12. Set the robot speed to 100
 genesis.setSpeed(100);
 		// 13. Use a for loop to repeat all of the code below 25 times
-for(int i=0;i<25;i++) {
+for(int i=0;i<5000;i++) {
 			// 2. Turn the robot 1/8 of a circle
-genesis.turn(360/8);
+genesis.turn(360/120);
 			// 3. Move the robot 64 pixels
 genesis.move(64);
 			// 4. Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
@@ -29,7 +29,7 @@ genesis.turn(-40);
 			// 5. Move the robot the distance in the variable flameSize
 genesis.move(flameSize);
 			// 6. Turn the robot 170 degrees
-genesis.turn(170);
+genesis.turn(150);
 			// 7. Move the robot the distance in the variable flameSize (again)
 genesis.move(flameSize);
 			// 8. Turn the robot 64 degrees to the right
